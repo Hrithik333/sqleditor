@@ -1,3 +1,10 @@
+Some of the screenshots are 
+![Screenshot (83)](https://user-images.githubusercontent.com/67138916/170677132-5ac63d5f-550c-44d4-ae46-ca19c7ba515d.png)
+![Screenshot (84)](https://user-images.githubusercontent.com/67138916/170677155-71da9438-7e6d-405b-9ad3-95f309f80055.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/67138916/170677172-1deeb2d7-ccee-4ec8-8886-63e15191a9c0.png)
+![Screenshot (86)](https://user-images.githubusercontent.com/67138916/170677241-337f34fe-a532-4dfe-907b-fe03fe3eea03.png)
+
+
 
 ## Features
 
@@ -5,7 +12,7 @@
 2. **Dynamic Table Views**: The list of tables is fetched at first, but the actual data isn't. Only when you click on the name of a table, are the entries fetched. Keeping the application lightweight, and blazing fast.
 3. **Defining Custom Types for Columns**: Each person is not the same; similarly, each column is not the same. You might want to specify certain processing functions: want to parse an image, or return an integer. You can do all this, and the table will display the processed result.
 4. **Result Statistics**: The user will also be alerted about the time taken to complete a query, giving the user a measure to check the performance of the system.
-5. **Ability to save the results as JSON, XML, or CSV**: This application includes functionality to save the results of a query in JSON, XML, and CSV formats. _**Pro Tip**: You can also save a query,so that you don't have to type the same thing twice!_
+\
 
 ## Optimisations
 - The most time-saving optimisation would be **dynamic fetching**. The rows of a table are fetched only when the user requests it. Not a second before. This shaves a lot of seconds off our initial load time, by distributing that across requests.
@@ -18,15 +25,3 @@
 - **Reduced the number of API calls**. I have reduced the number of API calls, by using the `useEffect` hook, which shaved off almost 2 seconds after each click.
 
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
